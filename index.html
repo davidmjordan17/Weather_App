@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+    <div class="title">
+      <h1>How's the Weather Looking?</h1>
+    </div>
+
+    <div class="search-location">
+      <input class="location" id="location-input" type="text" placeholder="Enter a location..." maxlength="50">
+      <button class="search" id="search-button">Search</button>
+    </div>
+
+    <div class="weather-search-container">
+      
+      <div class="display-weather">
+        <h2 class="display place" id="display-place"></h2>
+        <h2 class="display temp" id="display-temp"></h2>
+        <h2 class="display conditions" id="display-condition"></h2>
+        <h2 class="display humidity" id="display-humidity"></h2>
+        <h2 class="display feelsLike" id="display-feels-like"></h2>
+      </div>
+
+    </div>
+
+</body>
+</html>

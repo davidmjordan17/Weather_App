@@ -1,0 +1,107 @@
+body{
+  font-family: Roboto Mono, sans-serif;
+  background-color: rgb(218, 216, 216);
+}
+
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  min-width: 470px;
+  max-width: 730px;
+  margin: 50px auto;
+  background-image: url("https://designimages.appypie.com/allimages/appbackground65.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-top: 200px;
+}
+
+.title h1{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 3px 2px #000000;
+}
+
+.weather-search-container{
+
+  margin: 0px auto;
+  min-width: 470px;
+  max-width: 730px;
+  background-color: rgb(185, 233, 255);
+  border-radius: 10px;
+}
+
+.search-location{
+  display: block;
+  height: 100px;
+  margin-top: -10px;
+}
+
+.location{
+  height: 45px;
+  display: block;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 5px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  width: 730px;
+
+}
+
+.location:focus{
+  outline: none;
+}
+
+.search{
+  display: block;
+  width: 120px;
+  height: 40px;
+  margin: auto;
+  cursor: pointer;
+  background-color: rgb(255, 223, 184);
+  border-width: 1px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: Roboto mono, sans-serif;
+}
+
+.search:hover{
+  background-color: rgb(255, 231, 200);
+  transition: .2s;
+}
+
+.search:active{
+  background-color: rgb(255, 241, 222);
+  transition: .2s;
+  transform: translate(0px, 2px);
+  box-shadow: 1px 1px 0px 0px;
+}
+
+.display-weather{
+  margin-top: 50px;
+  text-align: center;
+  height: 500px;
+  padding: 15px;
+  background-image: url("https://designimages.appypie.com/allimages/appbackground65.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.place{
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-shadow: 2px 2px #050505;
+  color: #ffffff;
+}
+
+.temp, .conditions, .humidity, .feelsLike{
+  font-size: 30px;
+  text-shadow: 2px 2px #000000;
+  color: #ffffff;
+}
