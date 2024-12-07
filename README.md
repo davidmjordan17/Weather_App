@@ -12,6 +12,7 @@ Feels-like temperature<br>
 
 # Getting Started:
 ### Clone the repository<br>
+https://github.com/davidmjordan17/Weather_App.git
 
 ### Get an API Key<br>
 - Sign up for a free API key at <a href="https://weatherstack.com/">WeatherStack</a><br>
